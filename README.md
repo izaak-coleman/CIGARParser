@@ -2,7 +2,7 @@
 C++ CigarParser class.  
 Provides straightforward interface to access CIGAR fields for aligned reads.  
 Parses the CIGAR string as a contigous array of CIGAR operations.  
-This enables each cigar operation to be accessed using array syntax.  
+This enables each CIGAR operation to be accessed using array syntax.  
 Example:
 ```c++
   CigarParser cp("80M12I8M");
